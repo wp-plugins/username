@@ -19,15 +19,18 @@ After activation there is a sub menu in Settings called Username. Click on this 
 Note Password remains same. It is completely safe. 
 If you are not redirect to login page that means Username is not changed.
  
+ 
 = Requirements =
 
 * WordPress 3.5.1 or greater
 * PHP 5.2.6 or greater (5.3 recommended)
 * MySQL 4.1.2 or greater (5.x recommended)
 
+
 == Installation ==
 
 This plugin uses the standard installation procedure: install the plugin's folder inside of 'wp-content/plugins' (make sure the folder is named **username**).
+
 
 == Changelog ==
 
