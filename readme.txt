@@ -34,7 +34,7 @@ This plugin uses the standard installation procedure: install the plugin's folde
 
 == Changelog ==
 
-No changelog right now.
+Function is added into functions/username-class.php for user instruction.   
 
 
 == Frequently Asked Questions ==
