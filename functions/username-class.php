@@ -67,12 +67,8 @@ class user_name
 		return $input;
     }
 	
-	// Section info comes here.
     public function print_section_info(){
-		$data .= 'Change your Username here: ';
-		$data .= "</br>";
-		$data .= 'If you are not logged out, that means username is not changed.';
-		print $data;
+        print 'Change your Username here:';
     }
 	
     public function create_an_username_field(){
@@ -95,10 +91,3 @@ class user_name
 		exit;
 	}
 }
-
-	//Custom message setting
-	if( $_GET['page'] == "username-setting-admin" && isset($_GET['settings-updated']) ) {?>
-	<div id="message" class="updated">
-		<p><strong><?php _e('Username is not changed.') ?></strong></p>
-	</div>
-	<?php }?>
