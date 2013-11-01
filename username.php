@@ -3,7 +3,7 @@
 Plugin URI: http://www.indiatale.com/username
 Description: The Username plugin helps to change username, if username is not exist and without effecting others user's username.
 Author: Pranav Pathak
-Version: 1.1
+Version: 1.0
 Author URI: http://www.indiatale.com/username
 */
 
