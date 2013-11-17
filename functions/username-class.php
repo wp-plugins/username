@@ -68,7 +68,10 @@ class user_name
     }
 	
     public function print_section_info(){
-        print 'Change your Username here:';
+      $data .= "Change your Username here:";
+      $data .= "</br>";
+      $data .= "If you are not logged out, that means username is not changed.";
+      print $data;
     }
 	
     public function create_an_username_field(){
