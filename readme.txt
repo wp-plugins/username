@@ -38,10 +38,11 @@ Function is added into functions/username-class.php for user instruction.
 
 
 == Frequently Asked Questions ==
-1. Who can change username ?
+Who can change username ?
 
 Only those users who have administrator rights can change their username. Editer and Author can't change their Username
 
-2. An user who is having administrator rights can change another admin's Username?
+
+An user who is having administrator rights can change another admin's Username?
 
 No. 
