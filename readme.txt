@@ -2,7 +2,7 @@
 Contributors: pranavpathakjaora
 Tags: Change Username, admin, change username
 Requires at least: 3.5.2
-Tested up to: 3.9
+Tested up to: 4.0.1
 Stable tag: 1.1
 Version: 1.1
 License: GPLv2 or later
