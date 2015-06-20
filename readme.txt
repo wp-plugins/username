@@ -2,7 +2,7 @@
 Contributors: pranavpathakjaora
 Tags: Change Username, admin, change username
 Requires at least: 3.5.2
-Tested up to: 4.0.1
+Tested up to: 4.2.2
 Stable tag: 1.1
 Version: 1.1
 License: GPLv2 or later
@@ -30,6 +30,11 @@ If you are not redirect to login page that means Username is not changed.
 == Installation ==
 
 This plugin uses the standard installation procedure: install the plugin's folder inside of 'wp-content/plugins' (make sure the folder is named **username**).
+
+
+== Screenshots ==
+
+1. Admin page screenshot.
 
 
 == Changelog ==
