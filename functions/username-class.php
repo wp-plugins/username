@@ -8,8 +8,8 @@ class user_name
 {
     public static function call_username()
     {
-       wp_register_script('my_custom_script',plugins_url().'/username/js/username.js',array( 'jquery' ));
-	   wp_enqueue_script('my_custom_script');
+      wp_register_script('my_custom_script',plugins_url().'/username/js/username.js',array( 'jquery' ));
+      wp_enqueue_script('my_custom_script');
        
     }
 	public function __construct() {
@@ -68,16 +68,16 @@ class user_name
     }
 	
     public function print_section_info(){
-      $data .= "Change your Username here:";
+      $data .= "<b>Change your Username here:";
       $data .= "</br>";
-      $data .= "If you are not logged out, that means username is not changed.";
+      $data .= "If you are not logged out, that means username is not changed.</b>";
       print $data;
     }
 	
     public function create_an_username_field(){
         ?>
 		<input type="text" name="username" id="username" value="">  
-		<div class="clickme" id="clickme" style="cursor:pointer; margin: 10px 0; width: 224px; border: 1px solid;" >Click to check username is exist or not </div>
+		<div class="clickme" id="clickme" style="cursor:pointer; margin: 10px 0; width: 250px; border: 2px solid;" >Click to check username is exist or not </div>
 		<div id="username-use"></div>
 		<?php 	
     }
