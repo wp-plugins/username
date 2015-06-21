@@ -3,11 +3,11 @@ Contributors: pranavpathakjaora
 Tags: Change Username, admin, change username
 Requires at least: 3.5.2
 Tested up to: 4.2.2
-Stable tag: 1.1
-Version: 1.1
+Stable tag: 1.2
+Version: 1.2
 License: GPLv2 or later
 
-The Username plugin helps to change username, if username is not exist and without effecting others user's username.
+The Username plugin helps to change username, only if username is not exist and without effecting others user's username.
 
 
 == Description ==
